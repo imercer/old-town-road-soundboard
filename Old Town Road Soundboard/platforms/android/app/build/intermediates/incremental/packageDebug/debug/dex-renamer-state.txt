@@ -1,0 +1,4 @@
+#Tue Apr 23 22:40:13 NZST 2019
+base.0=D\:\\old-town-road-soundboard\\Old Town Road Soundboard\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

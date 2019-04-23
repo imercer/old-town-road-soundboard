@@ -129,14 +129,6 @@
       "ANDROID_SUPPORT_V4_VERSION": "24.1.1+"
     }
   },
-  "cordova-custom-config": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-custom-config@^4.0.2"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-open-native-settings": {
     "source": {
       "type": "registry",
@@ -159,7 +151,9 @@
       "id": "cordova-plugin-firebase-analytics"
     },
     "is_top_level": true,
-    "variables": {}
+    "variables": {
+      "FIREBASE_CORE_VERSION": "16.0.+"
+    }
   },
   "cordova-plugin-file-transfer": {
     "source": {
@@ -169,26 +163,10 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-support-google-services": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-support-google-services@1.0.0"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-device": {
     "source": {
       "type": "registry",
       "id": "cordova-plugin-device@~1.1.1"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "cordova-plugin-inapppurchase": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-inapppurchase@1.2.0"
     },
     "is_top_level": true,
     "variables": {}
@@ -207,6 +185,38 @@
     "source": {
       "type": "registry",
       "id": "cordova-plugin-extension"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-custom-config": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-custom-config"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-inapppurchase": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-inapppurchase@1.2.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-support-google-services": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-support-google-services"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-support-android-plugin": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-support-android-plugin@~1.0.0"
     },
     "is_top_level": false,
     "variables": {}

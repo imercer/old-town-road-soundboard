@@ -22,28 +22,28 @@
       "cordova-plugin-x-socialsharing": {
         "ANDROID_SUPPORT_V4_VERSION": "24.1.1+"
       },
-      "cordova-custom-config": {},
       "cordova-open-native-settings": {},
       "cordova-plugin-android-permissions": {},
       "cordova-plugin-firebase-analytics": {},
       "cordova-plugin-file-transfer": {},
-      "cordova-support-google-services": {},
       "cordova-plugin-device": {},
       "cordova-plugin-globalization": {},
       "cordova-connectivity-monitor": {},
       "cordova-plugin-compat": {},
-      "cordova-plugin-inapppurchase": {},
       "cordova-plugin-admobpro": {
         "PLAY_SERVICES_VERSION": "16.0.0"
-      }
+      },
+      "cordova-custom-config": {},
+      "cordova-plugin-inapppurchase": {},
+      "cordova-support-google-services": {}
     }
   },
   "dependencies": {
     "cordova": "^7.1.0",
-    "cordova-android": "^6.3.0",
+    "cordova-android": "^7.1.4",
     "cordova-browser": "~5.0.1",
     "cordova-connectivity-monitor": "^1.2.2",
-    "cordova-custom-config": "^4.0.2",
+    "cordova-custom-config": "^5.1.0",
     "cordova-ios": "^4.5.3",
     "cordova-open-native-settings": "^1.4.1",
     "cordova-plugin-admobpro": "^2.37.2",
@@ -68,7 +68,8 @@
     "cordova-plugin-wkwebview": "^0.6.10",
     "cordova-plugin-wkwebview-engine": "^1.1.4",
     "cordova-plugin-x-socialsharing": "^5.2.1",
-    "cordova-support-google-services": "^1.0.0",
+    "cordova-support-android-plugin": "^1.0.1",
+    "cordova-support-google-services": "^1.3.1",
     "es6-promise-plugin": "^4.1.0"
   }
 }

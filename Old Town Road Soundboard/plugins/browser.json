@@ -49,16 +49,10 @@
     "cordova-plugin-file-transfer": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     },
-    "cordova-support-google-services": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
-    },
     "cordova-plugin-device": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     },
     "cordova-open-native-settings": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
-    },
-    "cordova-custom-config": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     },
     "cordova-plugin-x-socialsharing": {
@@ -73,10 +67,16 @@
     "cordova-plugin-compat": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     },
+    "cordova-plugin-admobpro": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-custom-config": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
     "cordova-plugin-inapppurchase": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     },
-    "cordova-plugin-admobpro": {
+    "cordova-support-google-services": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },

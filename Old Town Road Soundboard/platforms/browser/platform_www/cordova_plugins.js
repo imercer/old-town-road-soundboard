@@ -465,7 +465,6 @@ module.exports.metadata =
     "cordova-plugin-android-permissions": "1.0.0",
     "cordova-plugin-firebase-analytics": "1.1.1",
     "cordova-plugin-file-transfer": "1.7.1",
-    "cordova-support-google-services": "1.0.0",
     "cordova-plugin-device": "1.1.7",
     "cordova-open-native-settings": "1.5.2",
     "cordova-custom-config": "4.0.2",
@@ -474,9 +473,10 @@ module.exports.metadata =
     "cordova-plugin-globalization": "1.11.0",
     "cordova-connectivity-monitor": "1.2.2",
     "cordova-plugin-compat": "1.2.0",
-    "cordova-plugin-inapppurchase": "1.1.0",
     "cordova-plugin-extension": "1.5.4",
-    "cordova-plugin-admobpro": "2.37.2"
+    "cordova-plugin-admobpro": "2.37.2",
+    "cordova-plugin-inapppurchase": "1.1.0",
+    "cordova-support-google-services": "1.3.1"
 }
 // BOTTOM OF METADATA
 });

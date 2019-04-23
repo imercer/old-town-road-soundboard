@@ -1,27 +1,27 @@
 {
-  "_from": "cordova-support-google-services@1.0.0",
-  "_id": "cordova-support-google-services@1.0.0",
+  "_from": "cordova-support-google-services",
+  "_id": "cordova-support-google-services@1.3.1",
   "_inBundle": false,
-  "_integrity": "sha1-ZuZg981Glsp/olzdp8tt8lXmXVw=",
+  "_integrity": "sha512-YbFWYBSkbErZh/moothPZG/p1p79ytXTc0iR4YHypBXg9TSDp7M7wm5eKk0f6wV4Ugv6a7UgBvAEtq2nllI8UA==",
   "_location": "/cordova-support-google-services",
   "_phantomChildren": {},
   "_requested": {
-    "type": "version",
+    "type": "tag",
     "registry": true,
-    "raw": "cordova-support-google-services@1.0.0",
+    "raw": "cordova-support-google-services",
     "name": "cordova-support-google-services",
     "escapedName": "cordova-support-google-services",
-    "rawSpec": "1.0.0",
+    "rawSpec": "",
     "saveSpec": null,
-    "fetchSpec": "1.0.0"
+    "fetchSpec": "latest"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/cordova-support-google-services/-/cordova-support-google-services-1.0.0.tgz",
-  "_shasum": "66e660f7cd4696ca7fa25cdda7cb6df255e65d5c",
-  "_spec": "cordova-support-google-services@1.0.0",
+  "_resolved": "https://registry.npmjs.org/cordova-support-google-services/-/cordova-support-google-services-1.3.1.tgz",
+  "_shasum": "6ab047db0625f572d42345b9a431fdd02fbcb677",
+  "_spec": "cordova-support-google-services",
   "_where": "D:\\old-town-road-soundboard\\Old Town Road Soundboard",
   "author": {
     "name": "Maksim Chemerisuk",
@@ -58,5 +58,5 @@
     "postversion": "git push && git push --tags",
     "version": "replace -s 'version=\"(.+)(?=\">)' 'version=\"'$npm_package_version plugin.xml && git add plugin.xml"
   },
-  "version": "1.0.0"
+  "version": "1.3.1"
 }

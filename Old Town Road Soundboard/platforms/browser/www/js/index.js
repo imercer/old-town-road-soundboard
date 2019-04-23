@@ -1,4 +1,4 @@
-var soundsArray = ["soundmp3","soundmp3b"]; //TODO: ADD ALL SOUNDS TO THIS ARRAY TO ENSURE THE SHUFFLE FEATURE WORKS
+var soundsArray = ["bigflex","brandnewtractor","cantnobodytellmenothing","carhorseobselete","cowboyhatfromgucci","guccidonthavecowboyhat","guitar","horsesintheback","horsesinthebackgenius","interpolationofthesong","lineabigflex","makethathappen","matteblack","matteblackgenius","notcomingback","oldtownroad","oldtownroadstory","pathtosuccess","payingbills","takemyhorse","takemyhorsegenius","yeah","youfeelme"];
 var displayAds;
 
 var soundsplayed = 0;
@@ -106,14 +106,10 @@ if(displayAds == "no") {
 }
 
 var storedfavourites = JSON.parse(localStorage.getItem("favourites"));
-var displayshareprompt = localStorage.getItem("shareprompt");
-var displayprompt = localStorage.getItem("favprompt");
 var favlabel;
 function loadFavourites() {
-if (!displayshareprompt) {
-    if (!storedfavourites) {
+if (!storedfavourites) {
         storedfavourites = [];
-    }
 } else if (storedfavourites) {
     var favbody = "<div class=\"container\"><div class=\"row\">";
     storedfavourites.forEach(function(favourite) {
@@ -268,7 +264,7 @@ function displayElement(element) {
     console.log("Showing element " + element);
     document.getElementById('all').style.display = "block";
     document.getElementById('favbody').style.display = "none";
-    $('.CATEGORY-tohide').hide(); //TODO: COUPY AND CHANGE FOR ALL THE CATEGORIES
+   // $('.CATEGORY-tohide').hide(); //TODO: COUPY AND CHANGE FOR ALL THE CATEGORIES
 	document.getElementById('homelists').style.display = "none";
     document.getElementById('selection').style.display = "block";
     $('.' + element + '').show();
@@ -279,7 +275,7 @@ function displayElement(element) {
 function displayAll() {
     document.getElementById('all').style.display = "block";
     document.getElementById('favbody').style.display = "block";
-    $('.CATEGORY').show(); //TODO: COPY AND CHANGE FOR ALL THE CATEGORIES
+  //  $('.CATEGORY').show(); //TODO: COPY AND CHANGE FOR ALL THE CATEGORIES
 	document.getElementById('homelists').style.display = "block";
     document.getElementById('selection').style.display = "none";
     document.getElementById('hideadsscreen').style.display = "none";
@@ -376,8 +372,8 @@ function menudisplayFavourites() {
 var allbuttons = "<div class=\"row\">";
 function finaliseRows() {
 	//TODO: ADD GROUPS HERE
-	allbuttons += document.getElementById('grouptitle').innerHTML;
-	allbuttons += document.getElementById('grouptitleB').innerHTML;
+	allbuttons += document.getElementById('songtitle').innerHTML;
+	allbuttons += document.getElementById('interviewtitle').innerHTML;
 	allbuttons += "</div>"
   	document.getElementById('selection').innerHTML = allbuttons;
 	document.getElementById('selection').style.display = "none";
