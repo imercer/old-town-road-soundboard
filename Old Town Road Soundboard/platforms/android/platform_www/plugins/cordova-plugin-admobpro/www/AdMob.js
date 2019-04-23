@@ -117,7 +117,7 @@ admobExport.prepareInterstitial = function(args, successCallback, failureCallbac
   } else if(typeof args === 'string') {
     options = { adId: args };
   }
-  cordova.exec( successCallback, failureCallback, 'AdMob', 'prepareInterstitial', [ args ] );
+  cordova.exec( successCallback, failureCallback, 'AdMob', 'prepareInterstitial', [ options ] );
 };
 
 admobExport.showInterstitial = function(successCallback, failureCallback) {
@@ -141,7 +141,7 @@ admobExport.prepareRewardVideoAd = function(args, successCallback, failureCallba
   } else if(typeof args === 'string') {
     options = { adId: args };
   }
-  cordova.exec( successCallback, failureCallback, 'AdMob', 'prepareRewardVideoAd', [ args ] );
+  cordova.exec( successCallback, failureCallback, 'AdMob', 'prepareRewardVideoAd', [ options ] );
 };
 
 admobExport.showRewardVideoAd = function(successCallback, failureCallback) {

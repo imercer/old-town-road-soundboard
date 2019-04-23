@@ -7,9 +7,6 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-device": {
-      "PACKAGE_NAME": "nz.isaacmercer.bigshaq"
-    },
     "cordova-plugin-device-orientation": {
       "PACKAGE_NAME": "nz.isaacmercer.bigshaq"
     },
@@ -31,22 +28,10 @@
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "nz.isaacmercer.bigshaq"
     },
-    "cordova-plugin-admobpro": {
-      "PACKAGE_NAME": "nz.isaacmercer.bigshaq"
-    },
-    "cordova-support-google-services": {
-      "PACKAGE_NAME": "nz.isaacmercer.bigshaq"
-    },
     "cordova-plugin-file": {
       "PACKAGE_NAME": "nz.isaacmercer.bigshaq"
     },
     "cordova-plugin-media": {
-      "PACKAGE_NAME": "nz.isaacmercer.bigshaq"
-    },
-    "cordova-plugin-file-transfer": {
-      "PACKAGE_NAME": "nz.isaacmercer.bigshaq"
-    },
-    "cordova-plugin-firebase-analytics": {
       "PACKAGE_NAME": "nz.isaacmercer.bigshaq"
     },
     "cordova-plugin-wkwebview-engine": {
@@ -55,28 +40,48 @@
     "cordova-plugin-app-version": {
       "PACKAGE_NAME": "nz.isaacmercer.bigshaq"
     },
-    "cordova-plugin-x-socialsharing": {
-      "PACKAGE_NAME": "nz.isaacmercer.bigshaq"
-    },
-    "cordova-custom-config": {
-      "PACKAGE_NAME": "nz.isaacmercer.bigshaq"
-    },
-    "cordova-open-native-settings": {
-      "PACKAGE_NAME": "nz.isaacmercer.bigshaq"
-    },
     "cordova-plugin-android-permissions": {
       "PACKAGE_NAME": "nz.isaacmercer.bigshaq"
     },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "nz.isaacmercer.oldtownroad"
+    },
+    "cordova-support-google-services": {
+      "PACKAGE_NAME": "nz.isaacmercer.oldtownroad"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "nz.isaacmercer.oldtownroad"
+    },
+    "cordova-open-native-settings": {
+      "PACKAGE_NAME": "nz.isaacmercer.oldtownroad"
+    },
+    "cordova-custom-config": {
+      "PACKAGE_NAME": "nz.isaacmercer.oldtownroad"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "ANDROID_SUPPORT_V4_VERSION": "24.1.1+",
+      "PACKAGE_NAME": "nz.isaacmercer.oldtownroad"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "nz.isaacmercer.oldtownroad"
+    },
+    "cordova-connectivity-monitor": {
+      "PACKAGE_NAME": "nz.isaacmercer.oldtownroad"
+    },
     "cordova-plugin-inapppurchase": {
-      "PACKAGE_NAME": "nz.isaacmercer.bigshaq"
+      "PACKAGE_NAME": "nz.isaacmercer.oldtownroad"
+    },
+    "cordova-plugin-admobpro": {
+      "PLAY_SERVICES_VERSION": "16.0.0",
+      "PACKAGE_NAME": "nz.isaacmercer.oldtownroad"
     }
   },
   "dependent_plugins": {
-    "cordova-plugin-extension": {
-      "PACKAGE_NAME": "nz.isaacmercer.bigshaq"
-    },
     "es6-promise-plugin": {
-      "PACKAGE_NAME": "nz.isaacmercer.bigshaq"
+      "PACKAGE_NAME": "nz.isaacmercer.oldtownroad"
+    },
+    "cordova-plugin-extension": {
+      "PACKAGE_NAME": "nz.isaacmercer.oldtownroad"
     }
   }
 }

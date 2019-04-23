@@ -2,15 +2,7 @@
   "cordova-plugin-compat": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-compat@^1.0.0"
-    },
-    "is_top_level": false,
-    "variables": {}
-  },
-  "cordova-plugin-device": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-device@~1.1.1"
+      "id": "cordova-plugin-compat@1.2.0"
     },
     "is_top_level": true,
     "variables": {}
@@ -76,30 +68,6 @@
       "type": "registry",
       "id": "cordova-connectivity-monitor"
     },
-    "is_top_level": false,
-    "variables": {}
-  },
-  "cordova-plugin-admobpro": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-admobpro"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "cordova-plugin-extension": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-extension"
-    },
-    "is_top_level": false,
-    "variables": {}
-  },
-  "cordova-support-google-services": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-support-google-services@^1.0.0"
-    },
     "is_top_level": true,
     "variables": {}
   },
@@ -115,22 +83,6 @@
     "source": {
       "type": "registry",
       "id": "cordova-plugin-file@5.0.0"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "cordova-plugin-file-transfer": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-file-transfer"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "cordova-plugin-firebase-analytics": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-plugin-firebase-analytics"
     },
     "is_top_level": true,
     "variables": {}
@@ -154,7 +106,7 @@
   "es6-promise-plugin": {
     "source": {
       "type": "registry",
-      "id": "es6-promise-plugin@4.1.0"
+      "id": "es6-promise-plugin@^4.1.0"
     },
     "is_top_level": false,
     "variables": {}
@@ -164,21 +116,23 @@
       "type": "registry",
       "id": "cordova-plugin-globalization"
     },
-    "is_top_level": false,
+    "is_top_level": true,
     "variables": {}
   },
   "cordova-plugin-x-socialsharing": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-x-socialsharing"
+      "id": "cordova-plugin-x-socialsharing@^5.2.1"
     },
     "is_top_level": true,
-    "variables": {}
+    "variables": {
+      "ANDROID_SUPPORT_V4_VERSION": "24.1.1+"
+    }
   },
   "cordova-custom-config": {
     "source": {
       "type": "registry",
-      "id": "cordova-custom-config"
+      "id": "cordova-custom-config@^4.0.2"
     },
     "is_top_level": true,
     "variables": {}
@@ -186,7 +140,7 @@
   "cordova-open-native-settings": {
     "source": {
       "type": "registry",
-      "id": "cordova-open-native-settings"
+      "id": "cordova-open-native-settings@^1.4.1"
     },
     "is_top_level": true,
     "variables": {}
@@ -199,12 +153,62 @@
     "is_top_level": true,
     "variables": {}
   },
+  "cordova-plugin-firebase-analytics": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-firebase-analytics"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-file-transfer": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-file-transfer"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-support-google-services": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-support-google-services@1.0.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-device": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-device@~1.1.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
   "cordova-plugin-inapppurchase": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-inapppurchase"
+      "id": "cordova-plugin-inapppurchase@1.2.0"
     },
     "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-admobpro": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-admobpro@^2.37.2"
+    },
+    "is_top_level": true,
+    "variables": {
+      "PLAY_SERVICES_VERSION": "16.0.0"
+    }
+  },
+  "cordova-plugin-extension": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-extension"
+    },
+    "is_top_level": false,
     "variables": {}
   }
 }

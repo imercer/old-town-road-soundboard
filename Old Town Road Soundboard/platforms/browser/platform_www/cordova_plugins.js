@@ -1,20 +1,6 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
-        "file": "plugins/cordova-plugin-device/www/device.js",
-        "id": "cordova-plugin-device.device",
-        "pluginId": "cordova-plugin-device",
-        "clobbers": [
-            "device"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-device/src/browser/DeviceProxy.js",
-        "id": "cordova-plugin-device.DeviceProxy",
-        "pluginId": "cordova-plugin-device",
-        "runs": true
-    },
-    {
         "file": "plugins/cordova-plugin-device-orientation/www/CompassError.js",
         "id": "cordova-plugin-device-orientation.CompassError",
         "pluginId": "cordova-plugin-device-orientation",
@@ -128,14 +114,6 @@ module.exports = [
         "pluginId": "cordova-plugin-statusbar",
         "merges": [
             "window.StatusBar"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-admobpro/www/AdMob.js",
-        "id": "cordova-plugin-admobpro.AdMob",
-        "pluginId": "cordova-plugin-admobpro",
-        "clobbers": [
-            "window.AdMob"
         ]
     },
     {
@@ -342,6 +320,30 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/cordova-plugin-app-version/www/AppVersionPlugin.js",
+        "id": "cordova-plugin-app-version.AppVersionPlugin",
+        "pluginId": "cordova-plugin-app-version",
+        "clobbers": [
+            "cordova.getAppVersion"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-android-permissions/www/permissions-dummy.js",
+        "id": "cordova-plugin-android-permissions.Permissions",
+        "pluginId": "cordova-plugin-android-permissions",
+        "clobbers": [
+            "cordova.plugins.permissions"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-firebase-analytics/www/FirebaseAnalytics.js",
+        "id": "cordova-plugin-firebase-analytics.FirebaseAnalytics",
+        "pluginId": "cordova-plugin-firebase-analytics",
+        "merges": [
+            "cordova.plugins.firebase.analytics"
+        ]
+    },
+    {
         "file": "plugins/cordova-plugin-file-transfer/www/FileTransferError.js",
         "id": "cordova-plugin-file-transfer.FileTransferError",
         "pluginId": "cordova-plugin-file-transfer",
@@ -366,19 +368,25 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-plugin-firebase-analytics/www/FirebaseAnalytics.js",
-        "id": "cordova-plugin-firebase-analytics.FirebaseAnalytics",
-        "pluginId": "cordova-plugin-firebase-analytics",
-        "merges": [
-            "cordova.plugins.firebase.analytics"
+        "file": "plugins/cordova-plugin-device/www/device.js",
+        "id": "cordova-plugin-device.device",
+        "pluginId": "cordova-plugin-device",
+        "clobbers": [
+            "device"
         ]
     },
     {
-        "file": "plugins/cordova-plugin-app-version/www/AppVersionPlugin.js",
-        "id": "cordova-plugin-app-version.AppVersionPlugin",
-        "pluginId": "cordova-plugin-app-version",
+        "file": "plugins/cordova-plugin-device/src/browser/DeviceProxy.js",
+        "id": "cordova-plugin-device.DeviceProxy",
+        "pluginId": "cordova-plugin-device",
+        "runs": true
+    },
+    {
+        "file": "plugins/cordova-open-native-settings/www/settings.js",
+        "id": "cordova-open-native-settings.Settings",
+        "pluginId": "cordova-open-native-settings",
         "clobbers": [
-            "cordova.getAppVersion"
+            "cordova.plugins.settings"
         ]
     },
     {
@@ -396,26 +404,53 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-open-native-settings/www/settings.js",
-        "id": "cordova-open-native-settings.Settings",
-        "pluginId": "cordova-open-native-settings",
+        "file": "plugins/cordova-plugin-globalization/www/GlobalizationError.js",
+        "id": "cordova-plugin-globalization.GlobalizationError",
+        "pluginId": "cordova-plugin-globalization",
         "clobbers": [
-            "cordova.plugins.settings"
+            "window.GlobalizationError"
         ]
     },
     {
-        "file": "plugins/cordova-plugin-android-permissions/www/permissions-dummy.js",
-        "id": "cordova-plugin-android-permissions.Permissions",
-        "pluginId": "cordova-plugin-android-permissions",
+        "file": "plugins/cordova-plugin-globalization/www/globalization.js",
+        "id": "cordova-plugin-globalization.globalization",
+        "pluginId": "cordova-plugin-globalization",
         "clobbers": [
-            "cordova.plugins.permissions"
+            "navigator.globalization"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-globalization/www/browser/moment.js",
+        "id": "cordova-plugin-globalization.moment",
+        "pluginId": "cordova-plugin-globalization",
+        "runs": true
+    },
+    {
+        "file": "plugins/cordova-plugin-globalization/src/browser/GlobalizationProxy.js",
+        "id": "cordova-plugin-globalization.GlobalizationProxy",
+        "pluginId": "cordova-plugin-globalization",
+        "runs": true
+    },
+    {
+        "file": "plugins/cordova-connectivity-monitor/www/connectivity.js",
+        "id": "cordova-connectivity-monitor.connectivity",
+        "pluginId": "cordova-connectivity-monitor",
+        "clobbers": [
+            "window.connectivity"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-admobpro/www/AdMob.js",
+        "id": "cordova-plugin-admobpro.AdMob",
+        "pluginId": "cordova-plugin-admobpro",
+        "clobbers": [
+            "window.AdMob"
         ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "cordova-plugin-device": "1.1.6",
     "cordova-plugin-device-orientation": "1.0.7",
     "cordova-plugin-dialogs": "1.2.1",
     "cordova-plugin-inappbrowser": "1.3.0",
@@ -423,21 +458,25 @@ module.exports.metadata =
     "cordova-plugin-splashscreen": "3.2.2",
     "cordova-plugin-statusbar": "2.1.3",
     "cordova-plugin-whitelist": "1.2.2",
-    "cordova-plugin-extension": "1.5.2",
-    "cordova-plugin-admobpro": "2.29.27",
-    "cordova-support-google-services": "1.0.0",
     "cordova-plugin-file": "5.0.0",
     "cordova-plugin-media": "4.0.0",
-    "cordova-plugin-file-transfer": "1.7.0",
-    "cordova-plugin-firebase-analytics": "0.12.0",
     "cordova-plugin-wkwebview-engine": "1.1.4",
     "cordova-plugin-app-version": "0.1.9",
-    "es6-promise-plugin": "4.1.0",
-    "cordova-plugin-x-socialsharing": "5.2.1",
-    "cordova-custom-config": "4.0.2",
-    "cordova-open-native-settings": "1.4.1",
     "cordova-plugin-android-permissions": "1.0.0",
-    "cordova-plugin-inapppurchase": "1.1.0"
+    "cordova-plugin-firebase-analytics": "1.1.1",
+    "cordova-plugin-file-transfer": "1.7.1",
+    "cordova-support-google-services": "1.0.0",
+    "cordova-plugin-device": "1.1.7",
+    "cordova-open-native-settings": "1.5.2",
+    "cordova-custom-config": "4.0.2",
+    "es6-promise-plugin": "4.2.2",
+    "cordova-plugin-x-socialsharing": "5.4.4",
+    "cordova-plugin-globalization": "1.11.0",
+    "cordova-connectivity-monitor": "1.2.2",
+    "cordova-plugin-compat": "1.2.0",
+    "cordova-plugin-inapppurchase": "1.1.0",
+    "cordova-plugin-extension": "1.5.4",
+    "cordova-plugin-admobpro": "2.37.2"
 }
 // BOTTOM OF METADATA
 });
