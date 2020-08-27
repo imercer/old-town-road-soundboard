@@ -1,1 +1,20 @@
-[{"outputType":{"type":"APK"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":100},"path":"app-debug.apk","properties":{"packageId":"nz.isaacmercer.oldtownroad","split":"","minSdkVersion":"19"}}]
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "nz.isaacmercer.oldtownroad",
+  "variantName": "debug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 1100,
+      "versionName": "1100",
+      "enabled": true,
+      "outputFile": "app-debug.apk"
+    }
+  ]
+}
