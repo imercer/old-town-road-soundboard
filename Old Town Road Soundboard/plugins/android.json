@@ -78,6 +78,12 @@
     },
     "cordova-support-google-services": {
       "PACKAGE_NAME": "nz.isaacmercer.oldtownroad"
+    },
+    "com.hiraqui.ringtone": {
+      "PACKAGE_NAME": "nz.isaacmercer.oldtownroad"
+    },
+    "com.lampa.startapp": {
+      "PACKAGE_NAME": "nz.isaacmercer.oldtownroad"
     }
   },
   "dependent_plugins": {

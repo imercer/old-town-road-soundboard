@@ -73,7 +73,7 @@ www FOLDER IS FOR APP DISPLAY FEATURES ONLY
             <a class="mdl-navigation__link" onclick="displayHideAds();">Hide Ads</a>
             <a class="mdl-navigation__link" onclick="cordova.plugins.firebase.analytics.logEvent('googleplayreview');" href="market://details?id=nz.isaacmercer.oldtownroad">Review on Google Play</a><!-- TODO: Insert the package name of the app -->
             <a class="mdl-navigation__link" href="mailto:soundboardemail@isaacscomputertips.com?subject=Old Town Road Soundboard - Sound Suggestion" onclick="cordova.plugins.firebase.analytics.logEvent('suggestionemail');">Suggest a Sound</a> <!-- TODO: Add the suggestion email address and change the subject text -->
-            <a class="mdl-navigation__link" onclick="cordova.plugins.firebase.analytics.logEvent('shareapplink',{origin: 'navmenu'});window.plugins.socialsharing.share('Check out this cool app, Soundboard, on Google Play.', null, null, 'https://play.google.com/store/apps/details?id=nz.isaacmercer.oldtownroad')">Share the App</a><!-- TODO: Change this to include the share description text and the URL of the app on Google Play -->
+            <a class="mdl-navigation__link" onclick="cordova.plugins.firebase.analytics.logEvent('shareapplink',{origin: 'navmenu'});window.plugins.socialsharing.share('Check out this cool app, Old Town Road Soundboard, on Google Play.', null, null, 'https://play.google.com/store/apps/details?id=nz.isaacmercer.oldtownroad')">Share the App</a><!-- TODO: Change this to include the share description text and the URL of the app on Google Play -->
         </nav>
     </div>
     <main class="mdl-layout__content">
@@ -239,9 +239,10 @@ www FOLDER IS FOR APP DISPLAY FEATURES ONLY
 				</div>
 			</div>
         </div>
+            </div>
         <div id="hideadsscreen" style="display: none; text-align: center">
             <br>
-            <h3>Hide ads in Old Town Road Soundboard <!-- TODO: Insert Soundboard Name --> for only <span id="currencyString">USD</span><span id="priceindecimalString">$0.99</span>. </h3>
+            <h3>Hide ads in Old Town Road Soundboard for only <span id="currencyString">USD</span><span id="priceindecimalString">$0.99</span>. </h3>
             <br>
             <span id="description"></span>
             <br><br><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" onclick="purchaseHideAds()">Buy Now</button>

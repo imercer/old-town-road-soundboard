@@ -120,6 +120,10 @@
         "source": "C:\\old-town-road-soundboard\\Old Town Road Soundboard\\platforms\\android\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_previous_item.png"
     },
     {
+        "merged": "C:\\old-town-road-soundboard\\Old Town Road Soundboard\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_paths.xml.flat",
+        "source": "C:\\old-town-road-soundboard\\Old Town Road Soundboard\\platforms\\android\\app\\src\\main\\res\\xml\\file_paths.xml"
+    },
+    {
         "merged": "C:\\old-town-road-soundboard\\Old Town Road Soundboard\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-xxxhdpi_screen.png.flat",
         "source": "C:\\old-town-road-soundboard\\Old Town Road Soundboard\\platforms\\android\\app\\src\\main\\res\\drawable-port-xxxhdpi\\screen.png"
     },

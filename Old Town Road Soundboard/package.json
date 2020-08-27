@@ -35,7 +35,9 @@
       },
       "cordova-custom-config": {},
       "cordova-plugin-inapppurchase": {},
-      "cordova-support-google-services": {}
+      "cordova-support-google-services": {},
+      "com.hiraqui.ringtone": {},
+      "com.lampa.startapp": {}
     }
   },
   "dependencies": {
@@ -72,6 +74,8 @@
     "es6-promise-plugin": "^4.1.0"
   },
   "devDependencies": {
+    "com.hiraqui.ringtone": "^0.6.1",
+    "com.lampa.startapp": "^6.1.6",
     "cordova-android": "^9.0.0"
   }
 }
