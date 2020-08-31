@@ -83,3 +83,19 @@ user-select: none;
 .ui-dialog-titlebar {
 display: none;
 }
+
+.show-search {
+    background-color:yellow;   
+    display: block !important; 
+}
+
+.mdl-button--fab.mdl-button--colored {
+    background-color: #28292b;
+}
+
+.mdl-textfield__input {
+    color: white;
+}
+.mdl-textfield__label {
+    color: white;
+}
