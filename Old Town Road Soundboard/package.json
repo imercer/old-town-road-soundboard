@@ -42,7 +42,7 @@
   },
   "dependencies": {
     "cordova": "^7.1.0",
-    "cordova-browser": "^5.0.4",
+    "cordova-browser": "^6.0.0",
     "cordova-connectivity-monitor": "^1.2.2",
     "cordova-custom-config": "^5.1.0",
     "cordova-ios": "^4.5.3",
